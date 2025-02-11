@@ -41,7 +41,7 @@ const ChatWindow = ({ chatId }: ChatWindowProps) => {
         <MessageList messages={messages || []} />
       </div>
 
-      {/* Message input */}
+      {/* input */}
       <div className="p-4 border-t dark:border-gray-700 bg-white dark:bg-gray-800">
         <MessageInput onSendMessage={handleSendMessage} />
       </div>
