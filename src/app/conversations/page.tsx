@@ -19,7 +19,7 @@ const ConversationPage = () => {
 
   return (
     <div className="flex h-screen bg-gray-50 dark:bg-gray-900">
-      {/* Mobile menu button */}
+      {/* Mobile menu */}
       <button
         onClick={toggleMobileMenu}
         className="md:hidden fixed top-4 px-3 right-4 z-50 p-2 rounded-lg bg-white dark:bg-gray-800 
