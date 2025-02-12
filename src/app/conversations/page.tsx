@@ -31,7 +31,7 @@ const ConversationPage = () => {
         )}
       </button>
 
-      {/* Mobile sidebar */}
+      {/* Mobile */}
       {isMobileMenuOpen && (
         <div
           className="md:hidden fixed inset-0 bg-black bg-opacity-50 z-40"
