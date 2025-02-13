@@ -61,7 +61,7 @@ const ConversationPage = () => {
           <ChatWindow chatId={selectedChatId} />
         ) : (
           <div className="h-full flex items-center justify-center text-gray-500 dark:text-gray-400">
-            Select a chat to start messaging
+            Select a chat to start messaging friends 
           </div>
         )}
       </div>
