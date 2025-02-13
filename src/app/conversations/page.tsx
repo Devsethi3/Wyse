@@ -39,7 +39,7 @@ const ConversationPage = () => {
         />
       )}
 
-      {/* Sidebar */}
+      {/* */}
       <div
         className={`fixed md:static inset-y-0 left-0 z-40 lg:w-80 w-full transform 
         ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"} 
