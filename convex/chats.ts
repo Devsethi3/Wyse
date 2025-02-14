@@ -15,7 +15,6 @@ export const get = query({
   },
 });
 
-//
 export const create = mutation({
   args: {
     type: v.union(v.literal("direct"), v.literal("group")),
