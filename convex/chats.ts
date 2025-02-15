@@ -50,7 +50,7 @@ export const update = mutation({
 export const remove = mutation({
   args: { chatId: v.id("chats") },
   handler: async (ctx, args) => {
-    // Delete
+    //
     const messages = await ctx.db
       .query("messages")
       .filter((q) => q.eq(q.field("chatId"), args.chatId))
