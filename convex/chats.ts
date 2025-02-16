@@ -56,7 +56,7 @@ export const remove = mutation({
       .collect();
 
     for (const message of messages) {
-      // Delete attachments for
+      // Delete attachments
       if (message.attachmentIds) {
         for (const attachmentId of message.attachmentIds) {
           await ctx.db.delete(attachmentId);
