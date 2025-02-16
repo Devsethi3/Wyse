@@ -64,7 +64,7 @@ export const remove = mutation({
       await ctx.db.delete(message._id);
     }
 
-    // Finally delete the chat
+    // Finally delete the
     await ctx.db.delete(args.chatId);
   },
 });
