@@ -18,7 +18,6 @@ export const get = query({
   },
 });
 
-//
 export const send = mutation({
   args: {
     chatId: v.id("chats"),
