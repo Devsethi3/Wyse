@@ -1,7 +1,7 @@
 import { mutation, query } from "./_generated/server";
 import { v } from "convex/values";
 
-// Queries
+//
 export const list = query({
   args: { chatId: v.id("chats") },
   handler: async (ctx, args) => {
