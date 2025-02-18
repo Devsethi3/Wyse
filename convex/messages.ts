@@ -18,7 +18,7 @@ export const get = query({
   },
 });
 
-// Mutations
+//
 export const send = mutation({
   args: {
     chatId: v.id("chats"),
