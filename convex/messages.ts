@@ -50,7 +50,6 @@ export const send = mutation({
   handler: async (ctx, args) => {
     const timestamp = Date.now();
 
-    //
     const attachmentIds = [];
     if (args.attachments) {
       for (const attachment of args.attachments) {
