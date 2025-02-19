@@ -61,7 +61,7 @@ export const send = mutation({
       }
     }
 
-    // Create
+    //
     const messageId = await ctx.db.insert("messages", {
       content: args.content,
       chatId: args.chatId,
