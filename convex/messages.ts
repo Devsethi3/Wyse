@@ -70,7 +70,6 @@ export const send = mutation({
       attachmentIds: attachmentIds.length > 0 ? attachmentIds : undefined,
     });
 
-    //
     for (const attachmentId of attachmentIds) {
       await ctx.db.patch(attachmentId, { messageId });
     }
