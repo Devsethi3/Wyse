@@ -74,7 +74,6 @@ export const send = mutation({
       await ctx.db.patch(attachmentId, { messageId });
     }
 
-    //
     await ctx.db.patch(args.chatId, { lastMessageAt: timestamp });
 
     return messageId;
