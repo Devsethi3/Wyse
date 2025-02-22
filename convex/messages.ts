@@ -99,7 +99,6 @@ export const remove = mutation({
   handler: async (ctx, args) => {
     const message = await ctx.db.get(args.messageId);
 
-    //
     if (message?.attachmentIds) {
       for (const attachmentId of message.attachmentIds) {
         await ctx.db.delete(attachmentId);
