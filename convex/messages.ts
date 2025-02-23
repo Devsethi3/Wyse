@@ -105,7 +105,7 @@ export const remove = mutation({
       }
     }
 
-    // De
+    // D
     await ctx.db.delete(args.messageId);
   },
 });
